@@ -1,0 +1,74 @@
+/* HOME PAGE */
+
+.quote-section {
+  display: flex;
+}
+
+.quote-section-text-container {
+  width: 50%;
+  margin: auto;
+}
+
+.quote-section-text {
+  text-align: center;
+  font-family: "Didot Italic";
+  font-size: 2rem;
+}
+
+.quote-section-image-container {
+  width: 50%;
+  max-height: 31rem;
+}
+
+.quote-section-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-section {
+  background: #ffffff;
+}
+
+.about-title {
+  color: #fa7269;
+}
+
+.whoami-text {
+  margin: 1.5rem;
+  line-height: 2;
+}
+
+.home-block {
+  background: #f2eee9;
+}
+
+.block-title {
+  font-family: "Didot Italic";
+  font-size: 1.375rem;
+  color: #fa7269;
+}
+
+.block-subtitle {
+  margin-top: 1rem;
+  font-size: 1.125rem;
+}
+
+.block-logo {
+  width: 20%;
+  margin-right: 2rem;
+}
+
+.block-logo:last-child {
+  margin: none;
+}
+
+@media only screen and (max-width: 1023px) {
+  .block-logo {
+    margin-bottom: 2rem;
+    margin-right: 0;
+    width: 80%;
+    max-width: 30rem;
+    align-self: center;
+  }
+}

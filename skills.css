@@ -1,0 +1,25 @@
+.skills-section {
+  max-width: 75rem;
+}
+
+.skills-list {
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.skill-block {
+  margin: 0 0.75rem;
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+.skill-block-icon {
+  width: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.skill-block-title {
+  font-family: "Didot Italic";
+  font-size: 1.375rem;
+  color: #fa7269;
+}

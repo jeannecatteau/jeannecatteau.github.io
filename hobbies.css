@@ -1,0 +1,27 @@
+.hobbies-text {
+  margin: 1rem auto;
+  max-width: 56.25rem;
+}
+
+.blog-link-container {
+  text-align: center;
+  padding: 1rem;
+}
+
+.hobbies-pictures-line {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.hobby-picture-container {
+  max-height: 380px;
+  width: 300px;
+  margin: 0 0.75rem;
+}
+
+.hobby-picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

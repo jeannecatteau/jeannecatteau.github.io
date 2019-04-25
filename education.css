@@ -1,0 +1,23 @@
+.education-line {
+  margin-top: 2rem;
+}
+
+.education-story {
+  max-width: 56.25rem;
+  margin: 1rem auto;
+}
+
+.education-separator {
+  width: 5rem;
+  border-bottom: 1px solid #fa7269;
+  margin: auto;
+}
+
+.exchanges-section {
+  background: #fa7269;
+}
+
+.exchange-title,
+.exchange-subtitle {
+  color: #ffffff;
+}
