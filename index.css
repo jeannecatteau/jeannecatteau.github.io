@@ -142,7 +142,7 @@ a {
 .link-button:hover {
   color: #ffffff;
   background-color: #fa7269;
-  border-color: inherit;
+  border-color: transparent;
 }
 
 /* Blocks */
