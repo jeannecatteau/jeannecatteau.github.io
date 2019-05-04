@@ -1,3 +1,9 @@
+.education-image {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 1.5rem;
+}
+
 .education-line {
   margin-top: 2rem;
 }
