@@ -2,22 +2,48 @@
 
 .quote-section {
   display: flex;
+  position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+  .quote-section {
+    flex-direction: column;
+  }
 }
 
 .quote-section-text-container {
   width: 50%;
   margin: auto;
-}
-
-.quote-section-text {
   text-align: center;
   font-family: "Didot Italic";
   font-size: 2rem;
 }
 
+@media only screen and (max-width: 768px) {
+  .quote-section-text-container {
+    position: absolute;
+    top: calc(50% - 4.25rem); /* 4.25rem is the total height */
+    right: 5%;
+    left: 5%;
+    width: auto;
+    padding: 1rem;
+    background: #fa7269;
+    color: #ffffff;
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+}
+
 .quote-section-image-container {
   width: 50%;
   max-height: 23rem;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  .quote-section-image-container {
+    width: 100%;
+  }
 }
 
 .quote-section-image {
