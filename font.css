@@ -6,6 +6,13 @@
 }
 
 @font-face {
+  font-family: "Avenir Light";
+  font-style: normal;
+  font-weight: bold;
+  src: url("public/fonts/AvenirLTStd-Medium.woff") format("woff");
+}
+
+@font-face {
   font-family: "Didot Italic";
   font-style: normal;
   font-weight: normal;

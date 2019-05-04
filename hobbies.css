@@ -1,11 +1,6 @@
 .hobbies-text {
-  margin: 1rem auto;
-  max-width: 56.25rem;
-}
-
-.blog-link-container {
-  text-align: center;
-  padding: 1rem;
+  margin: 1.8rem auto;
+  max-width: 52rem;
 }
 
 .hobbies-pictures-line {
@@ -15,8 +10,8 @@
 }
 
 .hobby-picture-container {
-  max-height: 380px;
-  width: 300px;
+  max-height: 23.75rem;
+  width: 18.75rem;
   margin: 0 0.75rem;
 }
 

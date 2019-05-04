@@ -10,6 +10,7 @@ body {
   margin: 0;
   position: relative;
   font-size: 1rem;
+  line-height: 1.125;
   font-family: "Avenir Light", Helvetica, sans-serif;
   color: #4a4843;
 }
@@ -33,7 +34,19 @@ a {
   color: inherit;
 }
 
+p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin: 1.8rem 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
 .header-title {
+  font-size: 2.5rem;
+  line-height: 1.8;
   font-family: "Didot Italic";
 }
 
@@ -62,11 +75,6 @@ a {
   text-align: center;
   margin: auto;
   padding: 2rem;
-}
-
-.text {
-  font-size: 1rem;
-  line-height: 1.8;
 }
 
 /* Nav */
@@ -143,6 +151,16 @@ a {
   color: #ffffff;
   background-color: #fa7269;
   border-color: transparent;
+}
+
+.resume-button {
+  position: absolute;
+  top: 0.3rem;
+  right: 10%;
+  padding: 0.35rem 1rem;
+  padding-top: 0.37rem;
+  color: #ffffff;
+  border: solid 1px #ffffff;
 }
 
 /* Blocks */
