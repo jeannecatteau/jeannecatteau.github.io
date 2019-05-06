@@ -17,6 +17,7 @@
   text-align: center;
   font-family: "Didot Italic";
   font-size: 2rem;
+  line-height: 1.5;
 }
 
 @media only screen and (max-width: 768px) {
@@ -30,7 +31,6 @@
     background: #fa7269;
     color: #ffffff;
     font-size: 1.5rem;
-    line-height: 1.5;
   }
 }
 
